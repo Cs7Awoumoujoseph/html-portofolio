@@ -1,31 +1,22 @@
-# JOJO Portfolio
+# JOJO Portfolio — projets HTML
 
-Portfolio personnel réalisé en **HTML** pour présenter des projets web et donner accès aux pages de présentation et de contact.
+Portfolio web simple réalisé en HTML5 pour présenter quelques projets d’apprentissage : classement de films, invitation d’anniversaire, page de présentation et page de contact.
 
-**Dépôt GitHub :** [html-portofolio](https://github.com/Cs7Awoumoujoseph/html-portofolio)
+## Aperçu
 
-## Présentation
+Le site propose :
+- une page d’accueil avec des liens vers les projets ;
+- une page de classement de films ;
+- une page d’invitation d’anniversaire ;
+- des pages « À propos » et « Contact ».
 
-Ce projet constitue une page d'accueil de portfolio qui met en avant le profil de développeur web de son auteur et propose un aperçu de projets réalisés.
+## Technologies
 
-## Fonctionnalités actuelles
+- HTML5 sémantique
+- Images locales pour les aperçus
+- Aucun processus de compilation nécessaire
 
-- Présentation du portfolio avec le titre « JOJO Portfolio ».
-- Affichage du profil « I'm Web Developer ».
-- Présentation d'un projet de classement de films (*Movie Ranking Project*).
-- Présentation d'un projet d'invitation d'anniversaire (*Birthday Invite Project*).
-- Liens vers les pages « About me » et « Contact me ».
-
-## Technologies utilisées
-
-- **HTML5** — structure et contenu des pages.
-- **Images** — aperçus visuels des projets.
-
-Le dépôt consulté ne montre pas de dépendances nécessitant un gestionnaire de paquets.
-
-## Structure du projet
-
-Les chemins ci-dessous correspondent aux fichiers référencés par la page d'accueil :
+## Structure
 
 ```text
 html-portofolio/
@@ -35,36 +26,31 @@ html-portofolio/
 │   └── images/
 │       └── birthday-invite.png
 └── public/
-    ├── movie-ranking.html
     ├── about.html
-    └── contact.html
+    ├── birthday-invite.html
+    ├── contact.html
+    └── movie-ranking.html
 ```
 
-> Cette arborescence décrit les chemins référencés dans `index.html`. Vérifiez le contenu réel du dépôt si certains fichiers ou dossiers ne sont pas présents.
-
 ## Lancer le projet
-
-Aucune installation n'est nécessaire pour consulter la page d'accueil.
 
 1. Clonez le dépôt :
 
    ```bash
    git clone https://github.com/Cs7Awoumoujoseph/html-portofolio.git
+   cd html-portofolio
    ```
 
-2. Ouvrez le dossier du projet.
-3. Ouvrez le fichier `index.html` dans un navigateur web.
+2. Ouvrez `index.html` dans un navigateur.
 
-## Vérifications et améliorations possibles
+Aucune installation de dépendances n’est requise.
 
-- Relier le bouton « Birthday Invite Project » à la bonne page HTML : son attribut `href` est actuellement vide dans `index.html`.
-- Vérifier que toutes les pages et images référencées sont bien présentes dans le dépôt.
-- Ajouter des styles CSS pour améliorer la mise en page, la lisibilité et l'adaptation aux écrans mobiles.
-- Ajouter une description et des captures d'écran pour chaque projet.
-- Vérifier l'accessibilité des images, notamment leurs textes alternatifs.
+## Améliorations possibles
+
+- Ajouter une feuille de style responsive et harmoniser la présentation visuelle.
+- Enrichir les descriptions des projets avec les objectifs et les choix de conception.
+- Vérifier l’accessibilité et l’affichage sur plusieurs tailles d’écran.
 
 ## Auteur
 
-**JOJO** — développeur web.
-
-Retrouvez le projet sur [GitHub](https://github.com/Cs7Awoumoujoseph/html-portofolio).
+JOJO — [profil GitHub](https://github.com/Cs7Awoumoujoseph).
